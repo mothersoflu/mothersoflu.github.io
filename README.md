@@ -69,3 +69,11 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 ## Copyright and License
 
 Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE) license.
+
+
+## Ben's notes
+https://hub.docker.com/_/httpd
+```
+docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+docker run -dit --name mothersoflu -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
+```
